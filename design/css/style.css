@@ -1,0 +1,339 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 100px;
+}
+
+/****************************
+* homeバー
+*****************************/
+
+header {
+    background: #fff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 67px;
+}
+
+
+nav a {
+    padding: 0 84px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 70px;
+    height: 70px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+/****************************
+* home main
+*****************************/
+#home {
+    background: url("../img/bg-home.png") center / cover no-repeat;
+    min-height: 100h;
+    color: #fff;
+}
+
+.main h2 {
+    font-size: 64px;
+    font-style: italic;
+    margin-left: 220px;
+    margin-top: 0%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 1.1;
+
+}
+
+.main h1 {
+    font-size: 128px;
+    font-style: italic;
+    font-family: serif;
+    margin-left: 300px;
+    margin-top: 0%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.tech {
+    font-size: 48px;
+    font-style: italic;
+    margin-left: 200px;
+}
+
+.we {
+    margin-left: 250px;
+    margin-top: 0%;
+}
+
+.are {
+    margin-left: 700px;
+    margin-top: 0%;
+}
+
+/****************************
+* profile text
+*****************************/
+#profile {
+    background: url("../img/bg-works.jpg") center / cover no-repeat;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    padding: 70px;
+}
+
+.text {
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.text h2 {
+    font-size: 32px;
+}
+
+.text h4 {
+    font-size: 20px;
+}
+
+.text p {
+    font-size: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.photo img {
+    border-radius: 50px;
+    width: 280px;
+    height: 280px;
+    margin-top: 30px;
+}
+
+/****************************
+* profile favorite
+*****************************/
+.like {
+    text-align: center;
+    color: #fff;
+    padding: 62px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.like h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.like p {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.favorite ul {
+    width: 80%;
+    padding: 52px 80px;
+    border-radius: 70px;
+    background: #fff;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.favorite img {
+    border-radius: 10px;
+}
+
+.favorite li {
+    width: 33%;
+    text-align: center;
+}
+
+/****************************
+* works main
+*****************************/
+#works {
+    background: url("../img/bg-works.jpg") center / cover no-repeat;
+}
+
+.work h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 48px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.made {
+    text-align: center;
+    color: #fff;
+    margin-top: 0;
+    font-size: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.work ul {
+    width: 65%;
+    margin: 50px 320px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work li {
+    width: 50%;
+}
+
+.work img {
+    border-radius: 30px;
+}
+
+.work p {
+    margin: 5px 0px 50px 15px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+/****************************
+* works skill
+*****************************/
+.skill h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.make {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 0px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.skill ul {
+    width: 80%;
+    padding: 52px 80px;
+    margin: auto;
+    list-style: none;
+    display: flex;
+}
+
+.skill li {
+    width: 300%;
+    height: 480px;
+    text-align: center;
+    background: #fff;
+    margin: 0 66px;
+    border-radius: 30px;
+}
+
+.skill img {
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.skill h2 {
+    margin-top: 51px;
+    font-size: 40px;
+}
+
+/****************************
+* contact 
+*****************************/
+#contact {
+    background: url("../img/bg-works.jpg") center / cover no-repeat;
+}
+
+.cont {
+    color: #fff;
+    font-size: 24px;
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+ .mes form {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    margin: auto;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background: #fff;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 450px;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: vertical;
+}
+
+#btn_confirm {
+    width: 160px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.btn-area {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+.leftarea{
+    display:flex;
+    flex-flow: column;
+    gap: 110px;
+
+    width: 300px;
+}
+.rightarea {
+    width: 450px;
+}
